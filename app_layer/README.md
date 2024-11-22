@@ -2,17 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## `npm install`
-
-Installs all the necessary packages to run the app.
-
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run: <br>
+`npm install` <br>
+Installs all the necessary packages to run the app.
 
-### `npm start`
-
-Runs the app in the development mode.\
+In the project directory, you can run: <br>
+`npm start` <br>
+Runs the app in the development mode.\ <br>
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
