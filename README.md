@@ -44,15 +44,15 @@ Go to the app layer to check instructions on installing and starting the web app
 ### Home page and upload artifact
 1. Figure 1 shows the home page of the user interface. To upload the artifact (excel file), user will be using this page. The user will provide the link of the artifact in the field _Enter Path to requirement artifact_ and uploads the artifact by clicking _Read File_. If the upload is successful, the transaction hash of the newly created block will be shown in the _Artifact Id_ field, if not the error in uploading the artifact is shown. <br>
 
-<img src= "/assets_main/web_app_upload_artifact.jpg" width="450" height="220"> <br>
+<img src= "/assets_main/web_app_upload_artifact.jpg" width="300" height="250"> <br>
 *Figure 1: Home page of the web application where users will upload the artifact* <br>
 <br> 
 
 ## First Artifact (genesis block)
-1. Use the template as shown in Figure 7 and fill all the necessary requirement traceability information. The sample template _artifact_template.xlsx_ is given in the home directory of the repository. <br>
+1. Use the template as shown in Figure 2 and fill all the necessary requirement traceability information. The sample template _artifact_template.xlsx_ is given in the home directory of the repository. <br>
    
-<img src= "/experiment/assets/art_template.png" width="450" height="120"> <br>
-*Figure 7: Template to fill the necessary requirements traceability information* <br>
+<img src= "/experiment/assets/art_sample.jpg" width="650" height="150"> <br>
+*Figure 7: Sample artifact that can be used to fill the necessary requirements traceability information* <br>
 <br> 
 
 3. Artifact Creators will be the stake holders involved in creating the artifact. <br>
