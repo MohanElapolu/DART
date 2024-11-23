@@ -55,7 +55,7 @@ Go to the app layer to check instructions on installing and starting the web app
 ## First Artifact (genesis block)
 1. Use the template as shown in Figure 2 and fill all the necessary requirement traceability information. The sample template _artifact_template.xlsx_ is given in the home directory of the repository. <br>
    
-<img src= "/experiment/assets/art_sample.jpg" width="650" height="150"> <br>
+<img src= "/assets_main/art_sample.jpg" width="650" height="150"> <br>
 *Figure 7: Sample artifact that can be used to fill the necessary requirements traceability information* <br>
 <br> 
 
