@@ -53,21 +53,16 @@ Go to the app layer to check instructions on installing and starting the web app
 <br> 
 
 ## First Artifact (genesis block)
-1. Use the template as shown in Figure 2 and fill all the necessary requirement traceability information. The sample template _artifact_template.xlsx_ is given in the home directory of the repository. <br>
+Use the sample artifact as shown in Figure 2 and fill all the necessary requirement traceability information. <br>
    
 <img src= "/assets_main/art_sample.jpg" width="650" height="200"> <br>
-*Figure 7: Sample artifact that can be used to fill the necessary requirements traceability information* <br>
+*Figure 2: Sample artifact that can be used to fill the necessary requirements traceability information* <br>
 <br> 
 
-3. Artifact Creators will be the stake holders involved in creating the artifact. <br>
-   _Ex. Stake holder 1, Stake holder 2_
-4. Artifact Name is the name of the artifact. Please use the below names to have consistency throughout the process. <br>
-  _Ex: System Objective, Mission Requirements, System Requirements, Vehicle Requirements, Subsystem Requirements, Minutes of Meeting, Operating Procedures_
-5. Parent Artifact ID is the hash of the block that the current artifact depends on. But for the first artifact there is no parent artificat. So you can give "_no parent artifact_".
-7. Object is the smallest possible element of the document of a design activity. For instance, in a requirement document, a requirement is the object. In Minutes of meeting, each critical bullet point can become an object. For the first artifact it can be the system objective.
-   _Ex. A high-speed autonomous off-road reconnaissance vehicle._
-9. Parent Object is the smallest possible element that the current Object depends on. For the first artifact there is no parent objets. So, you can give "_no parent object_"
-10. Link Type should be specified for artifact and object traces. Possible link types can be DEPENDS_ON, EVOLVED_TO, JUSTIFIES, SATISFIES. For the first aritfact as there are no parent objects you can give "_not-applicable_".
+## Creating blockchain text file:   
+In the blockchain_layer directory you can run...<br>
+`node write_blockchain.js` <br>
+This creates the _RequirementChain.txt_ file. In this text file we will have all the necessary information of the blockchain. The information in this file is visualized as graph.
 
 ## Graph Visualization:   
 Download and install Neo4J following the instructions from Neo4J website. You also need the file _graph_visualization.ipynb_ from _graph_visualization_ directory in this repository.
