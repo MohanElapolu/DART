@@ -107,7 +107,7 @@ Return n
 ### Citation
 Please cite the below paper (under review), if you find benefit or use any part of this repository.. <br>
 ```
-@article{elapolu2024blockchain, 
+@article{elapolu2025blockchain, 
   title={DART: A Decentralized Application-based Requirement Traceability Framework for Cyber-Physical System Development}, 
   author={Elapolu, Mohan S. R. and Rai, Rahul and Gorsich, David J. and Castanier, Matthew P. }, 
   journal={....},
