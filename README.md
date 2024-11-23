@@ -22,25 +22,29 @@ $ python run.py
 ```
 5. Your app is up and running in local network (Ex: http://localhost:5000, http://127.0.0.1:5000), copy the address and paste it onto any web browser. This will direct you to homepage of the web application.
 
-## Ngrok (Optional)
-1. To broadcast the app running in the local network, you can use ngrok. Register, download, and install ngrok following the instructions at their website (https://ngrok.com/).
-2. For instance, your app is running on local network http://localhost:5000, the below command can be used in the ngrok terminal that allows local network accessible to everyone..
+## Cloudflare (Optional)
+1. To broadcast the app running in the local network, you can use cloudflare. Install cloudflare following the instructions at their website (https://ngrok.com/).
+2. For instance, your app is running on local network http://localhost:5000, the below command can be used which allows local network accessible to everyone..
 ```
-ngrok http 5000
+cloudflared tunnel --url http://127.0.0.1:7545
 ```
-2. The ngrok will provide you the address that can be accessed by your peers.
+2. The cloudflare will provide you the address that can be accessed by your peers.
 
 ##  Ganache blockchain test network
 1. To start the network run the below command 
 ```
 ganache-cli -h 127.0.0.1 -p 7545 -m mnemonic_phrase --db "path\to\store\blockchain\database" -l 10000000000000
 ```
+
 ## Dataserver
 Go to the data layer folder to check instruction on how to start the dataserver. The files in this server can be accessed through the web application. 
+
 ## Metamask
 Install the browser extension metamask following the instructions. Create the metamask account. We should also activate the local blockchain test network in the metamask. 
+
 ## Web-app User Interface
 Go to the app layer to check instructions on installing and starting the web app.
+
 ### Home page and upload artifact
 1. Figure 1 shows the home page of the user interface. To upload the artifact (excel file), user will be using this page. The user will provide the link of the artifact in the field _Enter Path to requirement artifact_ and uploads the artifact by clicking _Read File_. If the upload is successful, the transaction hash of the newly created block will be shown in the _Artifact Id_ field, if not the error in uploading the artifact is shown. <br>
 
@@ -67,6 +71,7 @@ Go to the app layer to check instructions on installing and starting the web app
 
 ## Graph Visualization:   
 Download and install Neo4J following the instructions from Neo4J website. You also need the file _graph_visualization.ipynb_ from _graph_visualization_ directory in this repository.
+
 ### Neo4J browser
 1. Create Neo4J database and open Neo4J browser.
 2. Credentials used to create the database is needed for your Neo4J code. You have to update the credentials at the below statement of the code _graph_visualization.ipynb_.
