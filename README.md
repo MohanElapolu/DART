@@ -59,6 +59,11 @@ Use the sample artifact as shown in Figure 2 and fill all the necessary requirem
 *Figure 2: Sample artifact that can be used to fill the necessary requirements traceability information* <br>
 <br> 
 
+In addition to the traceability information, the Security column takes four different values: _CHILD_, _PARENT_, _BOTH_, and _NO_. <br>
+If the value is _CHILD_, the _Object_ is encrypted; <br>
+If it is _PARENT_, _Parent Object_, if it is _BOTH_, both the objects, and if it is _NO_, neither of the objects are encrypted.  <br>
+The $Key$ column provides the key that should be used to encrypt the data.
+
 ## Creating blockchain text file:   
 In the blockchain_layer directory you can run...<br>
 `node write_blockchain.js` <br>
