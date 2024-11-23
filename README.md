@@ -93,7 +93,7 @@ Detach Delete n.
 1. The necessary python code to create graph will be opened in the visual studio (VS) and ready to use. The user must run this code to extract the information from the RequirementChain text file and create Neo4J graph.
 2. To run the Jupyter notebook code the user has to click the run button at the left of the cell as shown in the Figure 2. <br>
 
-<img src= "/experiment/assets/neo4j_snippet.jpg" width="450" height="80"> <br>
+<img src= "/assets_main/neo4j_snippet.jpg" width="450" height="80"> <br>
 *Figure 2: Portion of python code to create the Neo4J commands.* <br>
 <br>
 3. Now if you run the below command you should be able to see the requirement graph. 
