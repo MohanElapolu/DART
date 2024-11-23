@@ -41,18 +41,11 @@ Go to the data layer folder to check instruction on how to start the dataserver.
 Install the browser extension metamask following the instructions. Create the metamask account. We should also activate the local blockchain test network in the metamask. 
 ## Web-app User Interface
 Go to the app layer to check instructions on installing and starting the web app.
-### Home page
-1. Figure 1 shows the home page of the user interface. User can start using the web application by clicking the start button. <br>
+### Home page and upload artifact
+1. Figure 1 shows the home page of the user interface. To upload the artifact (excel file), user will be using this page. The user will provide the link of the artifact in the field _Enter Path to requirement artifact_ and uploads the artifact by clicking _Read File_. If the upload is successful, the transaction hash of the newly created block will be shown in the _Artifact Id_ field, if not the error in uploading the artifact is shown. <br>
 
-<img src= "/assets_main/web_app_welcome.png" width="450" height="220"> <br>
-*Figure 1: Home page of the web application* <br>
-<br> 
-
-### Upload artifact
-1. To upload the artifact (excel file), user will be using the page as shown in Figure 6. The user will provide the link of the artifact in the field _Enter Path to requirement artifact_ and uploads the artifact by clicking Add Requirement Block. If the upload is successful, the newly created block will be shown, if not the error in uploading the artifact is shown. <br>
-
-<img src= "/assets_main/web_app_upload_artifact.png" width="450" height="250"> <br>
-*Figure 6: The page to upload the artifact.* <br>
+<img src= "/assets_main/web_app_upload_artifact.jpg" width="450" height="220"> <br>
+*Figure 1: Home page of the web application where users will upload the artifact* <br>
 <br> 
 
 ## First Artifact (genesis block)
