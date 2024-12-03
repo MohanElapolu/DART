@@ -4,24 +4,19 @@ DART: A Decentralized Application-based Requirement Traceability Framework for C
 ## Setup the application
 1. Prerequisites: conda and python should be installed. Conda version 23.11.2 and up, Python version 3.11.2 and up, should work. 
 
-3. Create and activate the virtual conda environment:
-  - Windows (open anaconda prompt terminal)
+3. Create and activate the virtual conda environment. Also, install the dependencies.
+  - Windows (open anaconda prompt terminal in the project folder)
 ```
-$ conda create --name bc-env
-$ conda activate bc-env
+$ conda env create -f environment.yml
+$ conda activate multi_org_block3
 ```
-3. Download the blockchain_app directory. Open the anaconda prompt terminal in this directory.
-4. Activate the conda virtual environment _bc-env_.
-5. Install all the dependencies in the virtual environment
+4. Also, you might have to install other dependencies given in the _other_dependencies.txt_ file.
+   
+##  Ganache blockchain test network
+1. To start the network run the below command 
 ```
-$ pip install -r dependencies.txt
+ganache-cli -h 127.0.0.1 -p 7545 -m mnemonic_phrase --db "path\to\store\blockchain\database" -l 10000000000000
 ```
-4. Run the local node and web app:
-```
-$ python run.py
-```
-5. Your app is up and running in local network (Ex: http://localhost:5000, http://127.0.0.1:5000), copy the address and paste it onto any web browser. This will direct you to homepage of the web application.
-
 ## Cloudflare (Optional)
 1. To broadcast the app running in the local network, you can use cloudflare. Install cloudflare following the instructions at their website (https://ngrok.com/).
 2. For instance, your app is running on local network http://localhost:5000, the below command can be used which allows local network accessible to everyone..
@@ -29,13 +24,7 @@ $ python run.py
 cloudflared tunnel --url http://127.0.0.1:7545
 ```
 2. The cloudflare will provide you the address that can be accessed by your peers.
-
-##  Ganache blockchain test network
-1. To start the network run the below command 
-```
-ganache-cli -h 127.0.0.1 -p 7545 -m mnemonic_phrase --db "path\to\store\blockchain\database" -l 10000000000000
-```
-
+   
 ## Dataserver
 Go to the data layer folder to check instruction on how to start the dataserver. The files in this server can be accessed through the web application. 
 
