@@ -2,3 +2,4 @@ npm install -g ganache --save-dev
 npm install -g ganache-cli --save-dev
 npm install express
 npm install cors
+npm install -g cloudflared
