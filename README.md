@@ -92,15 +92,14 @@ Return n
 ```
 
 ### Citation
-Please cite the below paper (under review), if you find benefit or use any part of this repository.. <br>
+Please cite the below paper, if you find benefit or use any part of this repository.. <br>
 ```
-@article{...., 
-  title={DART: A Decentralized Application-based Requirement Traceability Framework for Cyber-Physical System Development}, 
-  author={.....}, 
-  journal={....},
-  volume={....},
-  pages={....},
-  year={2024}, 
-  publisher={...} 
+@article{elapolu2026dart,
+  title={DART: a decentralised application-based requirement traceability framework for cyber-physical system development},
+  author={Elapolu, Mohan SR and Rai, Rahul and Gorsich, David J and Castanier, Matthew P},
+  journal={Enterprise Information Systems},
+  pages={2677553},
+  year={2026},
+  publisher={Taylor \& Francis}
 }
 ```
